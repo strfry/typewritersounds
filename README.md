@@ -5,12 +5,14 @@ It solves that problem by assigning typewriter sounds to keypress events.
 
 # Installation (Debian)
 
+```
   apt install triggerhappy
 
   cp triggers.d/typewriter.conf /etc/triggerhappy/triggers.d
   cp -r typewritersounds /usr/local/share/typewritersounds
 
   service triggerhappy restart
+```
 
 # Known Bugs
 
